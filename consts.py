@@ -21,5 +21,5 @@ VECTOR_RETRIVAL_TEMP = 0.7
 DB_USER = os.environ.get("DB_USER")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")
 DB_HOST = os.environ.get("DB_HOST")
-DB_NAME = os.environ.get("DB_NAME")
+DB_NAME = os.environ.get("DB_NAME") or "atliq_tshirts"
 DB_PORT = os.environ.get("DB_PORT") or 3306
